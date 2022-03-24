@@ -1,2 +1,1 @@
-# nextjs_covid
-this API from Kawal Corona
+Apps for transaction book
