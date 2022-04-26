@@ -1,9 +1,9 @@
 const express = require('express');
 const router = express.Router();
 const { auth } = require('../../middlewares/auth');
-const { checkout } = require('./controller');
+const { getTransactionList } = require('./controller');
 
 
-router.post('/checkouts', auth, checkout);
+router.get('/transactions', auth, getTransactionList);
 
 module.exports = router;
